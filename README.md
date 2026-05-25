@@ -1,19 +1,103 @@
-# React + TypeScript + Vite
+# AbdulWaris Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern developer portfolio built with React, TypeScript, and Vite to showcase my projects, skills, and experience as a Full Stack Web Developer.
 
-Currently, two official plugins are available:
+The portfolio highlights my work in:
+- Full Stack Web Development
+- Frontend Engineering
+- Inventory Management Systems
+- Offline-First Applications
+- Responsive UI/UX
+- Modern Web Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive modern UI
+- Smooth animations and transitions
+- Project showcase section
+- Skills & tech stack section
+- Experience timeline
+- Mobile-friendly design
+- Fast development with Vite
+- Clean and scalable component structure
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
+
+- React.js
+- TypeScript
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+- Responsive Design
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+ ├── components/
+ ├── pages/
+ ├── assets/
+ ├── hooks/
+ ├── styles/
+ ├── App.tsx
+ └── main.tsx
+```
+
+---
+
+## ⚡ Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/wariswebdev/your-repo-name.git
+```
+
+Navigate into the project:
+
+```bash
+cd your-repo-name
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+Preview production build locally:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🧹 ESLint Configuration
+
+This project uses ESLint for maintaining clean and consistent code quality.
+
+Example TypeScript-aware ESLint setup:
 
 ```js
 export default defineConfig([
@@ -21,53 +105,46 @@ export default defineConfig([
   {
     files: ['**/*.{ts,tsx}'],
     extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
       tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
       tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
       tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
     ],
     languageOptions: {
       parserOptions: {
         project: ['./tsconfig.node.json', './tsconfig.app.json'],
         tsconfigRootDir: import.meta.dirname,
       },
-      // other options...
     },
   },
 ])
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+React-specific linting can also be added using:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- eslint-plugin-react-x
+- eslint-plugin-react-dom
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🌐 Portfolio Goals
+
+This portfolio was built to:
+- Showcase real-world projects
+- Highlight frontend & full stack skills
+- Demonstrate responsive UI development
+- Present scalable and clean application architecture
+- Create a fast and modern developer experience
+
+---
+
+## 📫 Contact
+
+- GitHub: https://github.com/wariswebdev
+- LinkedIn: https://www.linkedin.com/in/abdul-waris-ghazi-83b134252/
+- Email: a.warisghazi.work@gmail.com
+
+---
+
+## 📄 License
+
+This project is open source and available under the MIT License.
